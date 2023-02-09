@@ -12,4 +12,23 @@
             </div>
         </div>
     </div>
+
+
+
+    {{-- <div className="mb-4">
+        <label className="block text-gray-700 text-sm font-bold mb-2">
+            Color
+        </label>
+        <input className="form-control-color form-control" id="inputColor" type="color" value="#d50707" placeholder="Color" />
+    </div>
+
+    <script>
+        
+        const color = document.querySelector('#inputColor');
+
+        color.addEventListener("change", (e)=> {
+            document.body.style.backgroundColor = e.target.value;
+            console.log(e.target.value);
+        })
+    </script> --}}
 </x-app-layout>
